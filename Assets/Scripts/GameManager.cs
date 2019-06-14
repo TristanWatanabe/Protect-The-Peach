@@ -55,7 +55,6 @@ public class GameManager : MonoBehaviour {
         //stop background scroll
         BackgroundScroller.instance.StopScroll();
         FindObjectOfType<AudioManager>().Stop("InGameSound");
-        AdManager.instance.showBanner();
 
     }
 }

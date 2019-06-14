@@ -51,7 +51,6 @@ public class UiManager : MonoBehaviour {
     public void Replay()
     {
         SceneManager.LoadScene("level1");
-        AdManager.instance.hideBanner();
     }
 
     public void Menu()
